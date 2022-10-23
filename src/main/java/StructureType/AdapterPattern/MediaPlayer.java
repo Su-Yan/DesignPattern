@@ -1,5 +1,5 @@
 package StructureType.AdapterPattern;
 
 public interface MediaPlayer {
-    public void play();
+    public void play(String audioType,String fileName);
 }
